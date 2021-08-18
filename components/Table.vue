@@ -27,7 +27,7 @@
     <div class="d-flex table-footer justify-content-between">
       <span>{{ items.length }} results</span>
       <div>
-        <button class="button btn-disabled">Previous</button>
+        <Button disabled class="button">Previous</Button>
         <Button> Next </Button>
       </div>
     </div>

@@ -2,8 +2,9 @@
   <button
     :class="[
       'button',
-      { 'tab-button': tab, 'btn-colored': colored, 'text-danger': false },
+      { 'tab-button': tab, 'btn-colored': colored, 'btn-disabled': disabled },
     ]"
+    :disabled="disabled"
     type="button"
     @click="$emit('click')"
   >
@@ -30,6 +31,14 @@ export default {
     colored: {
       type: Boolean,
       default: false,
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+    type: {
+      type: String,
+      default: () => 'button',
     },
   },
 }
