@@ -8,6 +8,7 @@ yarn-debug.log*
 yarn-error.log*
 components/navMenu.vue
 pages/test.vue
+netlify.toml
 # Runtime data
 pids
 *.pid
@@ -89,3 +90,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Local Netlify folder
+.netlify

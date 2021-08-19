@@ -470,7 +470,7 @@ tbody td:nth-child(4) div {
   margin: 20px 0 20px 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .content {
     padding-top: 23px;
   }

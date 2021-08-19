@@ -55,6 +55,19 @@
 <script>
 import loginMeta from '~/data/loginMeta'
 export default {
+  data() {
+    return {
+      posts: [],
+    }
+  },
+  fetch() {
+    fetch('https://jsonplaceholder.typicode.com/posts')
+      .then((response) => response.json())
+      .then((json) => {
+        this.posts = json
+      })
+    console.log(this)
+  },
   head() {
     return {
       title: 'Login - Fidia',
