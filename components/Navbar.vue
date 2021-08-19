@@ -10,47 +10,47 @@
       </span>
     </div>
     <div class="link-container">
-      <nav-link to="/">
+      <nav-link to="">
         <template #icon> <home-icon /> </template>
         Home
       </nav-link>
       <dropdown-link name="Payments">
         <template #icon> <payment-icon /> </template>
-        <nav-link submenu to="/"> Reviews </nav-link>
-        <nav-link submenu to="/"> Disputes </nav-link>
-        <nav-link submenu to="/"> All transactions </nav-link>
-        <nav-link submenu to="/"> Top-ups </nav-link>
-        <nav-link submenu to="/"> Collected fees </nav-link>
-        <nav-link submenu to="/"> Transfers </nav-link>
-        <nav-link submenu to="/"> Payouts </nav-link>
+        <nav-link submenu to=""> Reviews </nav-link>
+        <nav-link submenu to=""> Disputes </nav-link>
+        <nav-link submenu to=""> Top-ups </nav-link>
+        <nav-link submenu to=""> Collected fees </nav-link>
+        <nav-link submenu to=""> Transfers </nav-link>
+        <nav-link submenu to=""> Payouts </nav-link>
+        <nav-link submenu to=""> All transactions </nav-link>
       </dropdown-link>
       <div>
-        <nav-link to="/">
+        <nav-link to="">
           <template #icon> <balance-icon /> </template>
           Balances </nav-link
-        ><nav-link to="/">
+        ><nav-link to="">
           <template #icon> <customer-icon /> </template>
           Customers </nav-link
-        ><nav-link to="/">
+        ><nav-link to="">
           <template #icon> <connected-icon /></template>
           Connected accounts </nav-link
-        ><nav-link to="/">
+        ><nav-link to="">
           <template #icon><products-icon /></template>
           Products </nav-link
-        ><nav-link to="/">
+        ><nav-link to="">
           <template #icon> <reports-icon /> </template>
           Reports
         </nav-link>
       </div>
 
       <div class="mt-24">
-        <nav-link to="/">
+        <nav-link to="">
           <template #icon> <balance-icon /> </template>
           Developers </nav-link
-        ><switch-button to="/">
+        ><switch-button to="">
           <template #icon> <checkbox /> </template>
           View test data </switch-button
-        ><nav-link to="/">
+        ><nav-link to="">
           <template #icon> <settings-icon /> </template>
           Settings
         </nav-link>

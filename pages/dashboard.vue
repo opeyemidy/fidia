@@ -39,7 +39,7 @@
         </div>
         <Table :headers="headers" :items="tableData">
           <template #amount="{ dataItem }">
-            <span>{{ dataItem.amount }}</span>
+            <span class="price-wrapper">{{ dataItem.amount }}</span>
             <span class="table-tag">
               <span>{{ dataItem.status }} </span>
               <span>

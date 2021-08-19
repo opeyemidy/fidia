@@ -426,6 +426,7 @@ main {
 }
 table {
   width: 100%;
+  color: #4f566b;
 }
 .table-container table thead th {
   border-bottom: 1px solid #e3e8ee;
@@ -440,6 +441,9 @@ th:nth-child(4) {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+th:last-child {
+  width: 50px;
+}
 .table-container th {
   padding-bottom: 10px;
 }
@@ -453,6 +457,11 @@ th:nth-child(4) {
 .table-container td:not(:first-child) {
   padding-left: 12px;
 }
+.price-wrapper {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
 .table-tag {
   display: inline-flex;
   padding: 1px 4px 1px 6px;
@@ -465,6 +474,9 @@ tbody td:nth-child(4) div {
   width: 155px;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+tbody tr td:last-child {
+  text-align: right;
 }
 .table-footer {
   margin: 20px 0 20px 0;
