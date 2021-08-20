@@ -4,7 +4,10 @@
       <table>
         <thead>
           <tr>
-            <th><input id="" type="checkbox" name="" /></th>
+            <th>
+              <label for="table-mark"></label
+              ><input id="" type="checkbox" name="" />
+            </th>
             <th v-for="header in headers" :key="header.value">
               {{ header.text }}
             </th>
@@ -13,7 +16,10 @@
         </thead>
         <tbody>
           <tr v-for="item in items" :key="item[itemKey]">
-            <td><input id="" type="checkbox" name="" /></td>
+            <td>
+              <label for="table-mark"></label
+              ><input id="" type="checkbox" name="" />
+            </td>
             <td v-for="dataItem in headers" :key="dataItem.value">
               <slot :name="dataItem.value" :data-item="item">{{
                 item[dataItem.value]
