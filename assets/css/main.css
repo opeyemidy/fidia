@@ -211,7 +211,7 @@ button.btn {
   text-align: center;
 }
 .footer-links {
-  margin-top: 32px;
+  margin: 32px 16px;
   padding-left: 19px;
 }
 .info-links {
@@ -220,16 +220,13 @@ button.btn {
   align-items: center;
   margin-top: 24px;
 }
-.info-links > div {
+.info-links li div {
   width: 2px;
   height: 2px;
   background: #697386;
 }
 .info-links li {
   list-style: none;
-}
-.info-links li:not(:first-child) {
-  margin-left: 7px;
 }
 .info-links li:not(:last-child) {
   margin-right: 15px;
